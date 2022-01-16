@@ -1,0 +1,35 @@
+.benefit{
+  text-align: center;
+}
+
+.benefit__img-wrapper{
+  display: inline-block;
+  width: 126px;
+  height: 126px;
+  position: relative;
+  background: #F2F5F4;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.benefit__pic{
+  height: 62px;
+  width: 68px;
+  top:50%;
+  left:50%;
+  transform: translate(44%, 52%);
+}
+
+.benefit__title{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Play;
+  margin: 0;
+}
+
+.benefit__desc{
+  font-size: 16px;
+  font-family: Play;
+  line-height: 1.2;
+}
