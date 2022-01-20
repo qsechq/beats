@@ -1,0 +1,22 @@
+.section__map{
+  background: url("../img/map.png") center center no-repeat;
+  background-size:  cover;
+  position: relative;
+  margin-bottom: 5.375rem;
+  
+}
+
+.container--map{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone__icon{
+  width: 19px;
+  height: 18px;
+  padding-top: 3px;
+  fill:  #E01F3D;
+  display: none;
+}

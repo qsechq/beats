@@ -1,0 +1,46 @@
+.hero{
+  background: url("../img/headset.png") left 65% top 47% no-repeat;
+  background-color: #F5F5F5;
+  height: 100%;
+  min-height: 40.75rem;
+  position: relative;
+  
+
+  &:before{
+    content:url(../img/poloska.png);
+    bottom: -1.75rem;
+    right: 11%;
+    position: absolute;
+  }
+}
+
+.hero__main-title{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Play;
+  line-height: 1.1;
+ 
+  text-transform: uppercase;
+}
+
+.hero__title-desc{
+  font-size: 1.3rem;
+  color:#292929;
+  margin-bottom: 3.25rem;
+  padding-right: 10%;
+  line-height: 1.29;
+}
+
+.hero__title-section{
+  width: 40%;
+}
+
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 1.625rem 0 4.375rem 0;
+  
+}
+

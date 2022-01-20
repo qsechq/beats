@@ -1,0 +1,130 @@
+@media  (max-width:768px){
+  html{font-size: 14px}
+  .container{max-width:644px; flex-direction: column;}
+  .hero{background: url("../img/headset.png") top 32% center no-repeat;background-size: 23.071rem 23.071rem;background-color: #F5F5F5;}
+  .nav{display: none;}
+  .phone{
+    &__contact{
+       &:before{
+        display: none;
+      }
+      }
+    display: none;
+    &--footer{
+      display: flex;
+    }
+  }
+  .hero__icons-section{display: none;}
+  .fixed__menu{
+    display: none;
+  }
+  .phone__icon{display: block;}
+  .hamburger{display: inline-flex;}
+  .hero__title-section{width:100%; text-align: center;}
+  .hero__title-desc {padding: 0 22%; font-family: Play;}
+  .hero__main-title{padding: 0 4%;}
+  .hero__container{padding: 1.625rem 0 7.375rem 0;}
+  .benefits__item{
+    flex:1;
+    padding: 0 4%;
+    position: relative;
+  
+    &:before{
+      content: url(../../img/tochki.svg); display: none;}
+    }
+    .reviews__display-inner{ display: flex;flex-direction: column;align-items: center;}
+    .reviews__content{text-align: center; margin-left: 0;}
+    .reviews__text{padding: 0 0;}
+    .reviews__avatar{
+      height:9.285rem;width:9.285rem;
+      margin-bottom: 2.285rem;
+    }
+    .form{
+      flex-direction: column;
+      &__col{margin-right: 0;}
+    }
+
+    .section__map{background: url("../img/map.png")center center no-repeat; background-size:cover;width: 54.857rem;height: 37.57rem;}
+
+    .phone__contact--footer{
+      color: #E01F3D;
+    }
+
+    .container--map{flex-direction: row;}
+    .social__link{height: 2.142rem;width: 2.142rem;}
+    
+}
+
+
+@media (max-width:480px){
+  html{font-size: 13px}
+  .hero__main-title{padding: 0;}
+  .container{max-width:394px}
+  .hero__title-section{
+    &:after{background: url("../img/headset.png") no-repeat;}
+  }
+  .hero__title-desc {padding: 0 11%; font-family: Play;}
+  
+  .benefits__item{
+    flex:1;
+    padding: 0 4%;
+    position: relative;
+  
+    &:before{
+      content: url(../../img/tochki.svg); display: none;}
+    }
+    .interective__avatar{
+      width: 4.923rem;
+      height: 4.923rem;}
+      .benefits{flex-direction: column;
+        &__item{
+          display: flex;
+        }
+      }
+      .headline__subtitle{padding: 0px 11%;}
+      .benefit__text{    display: flex;
+        flex-direction: column;
+        align-items: flex-start;}
+        .benefit__desc{text-align: left;}
+
+        .benefits__item{padding-left:  6%;&:last-child{padding-right:6%;}&:first-child{padding-left: 6%;}}
+        .benefit__img{ margin-right: 0.923rem;}
+        .reviews__text{margin-bottom: 0.75rem;}
+        .form__controls{justify-content: center;}
+        .form__btns{text-align: center;}
+        .section__map{
+          margin-bottom: 11.615rem;
+        }
+        .section__map{background: url("../img/map.png")center center no-repeat; background-size:cover;width: 36.923rem;height: 37.076rem;}
+
+        
+        .container--map{flex-direction: column; justify-content: normal;}
+        .footer{
+          flex-direction: column;
+          margin-bottom: -11.615rem;
+          padding-bottom:2.583rem ;
+          padding-top: 1.538rem;
+          
+        }
+        .address{margin-bottom: 0.923rem;}
+        .phone__icon{display: none;}
+        .phone--footer{
+          align-items: center;
+        }
+        .phone__contact--footer{
+          color: #292929;
+          margin-bottom: 1.461rem;
+        }
+        .social__list{justify-content: center;}
+        .social__item{height: 1.846rem;width: 1.846rem; }
+        .social__link{height: 1.846rem;width: 1.846rem;}
+        .phone{
+         
+          &__contact{
+         
+           &:before{
+           display: block;
+          }
+          }
+}
+}
