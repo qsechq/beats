@@ -1,0 +1,23 @@
+.section{
+  height: 100%;
+  min-height:40.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+}
+
+.section__title{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Play;
+  text-transform: uppercase;
+  margin-bottom: 3.0625rem;
+  text-align: center;
+}
+
+.section__slider{
+  background: #F8FAF9;
+  background: url("../../images/icons/kvadrat.svg") bottom left 91% no-repeat #F8FAF9;
+}
+
