@@ -1,0 +1,23 @@
+.social__link{
+  height: 1.875rem;
+  width:1.875rem;
+  display: block;
+}
+
+.social__list{
+  display: flex;
+}
+.social__item{
+    margin-right: 0.625rem;
+  &:last-child{
+    margin-right: 0;
+  }
+  }
+
+.social__icon{
+  fill:#B3B3B3;
+  transition: 0.5s;
+  &:hover{
+    fill: black;
+  }
+}

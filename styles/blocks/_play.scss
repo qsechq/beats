@@ -1,0 +1,149 @@
+.work__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.video {
+  position: relative;
+}
+.video__mp4 {
+  display: flex;
+  width: 662px;
+  height: 392px;
+}
+@media screen and (max-width: 768px) {
+  .video__mp4 {
+    width: 100%;
+    height: auto;
+  }
+}
+.video .paused .video__play-icon {
+  visibility: hidden;
+}
+.video .paused .video__playpause-icon {
+  fill-opacity: 0.3;
+}
+.video__controls {
+  display: flex;
+  align-items: center;
+  background: #151515;
+  height: 35px;
+  padding: 0 17px;
+}
+@media screen and (max-width: 768px) {
+  .video__controls {
+    padding: 0 38px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .video__controls {
+    padding: 0 23px;
+  }
+}
+.video__playpause {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 36px;
+  cursor: pointer;
+}
+.video__playpause-icon {
+  width: 11px;
+  height: 16px;
+}
+.video__play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video__play-icon {
+  width: 48px;
+  height: 70px;
+}
+.video__progress {
+  display: flex;
+  height: 4px;
+  background: #333333;
+  flex: 1;
+  cursor: pointer;
+}
+.video__total {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: #333333;
+}
+.video__current {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+.video__current::before {
+  content: "";
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #E01F3D;
+  position: absolute;
+  top: 0;
+  transform: translate(0, -35%);
+  left: 100%;
+}
+.video__volume-progress {
+  display: flex;
+  height: 4px;
+  min-width: 58px;
+  margin-left: 7px;
+  background: #333333;
+  flex: 1;
+  cursor: pointer;
+}
+.video__volume-current {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+.video__volume-current::before {
+  content: "";
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #E01F3D;
+  position: absolute;
+  top: 0;
+  transform: translate(0, -35%);
+  left: 100%;
+}
+.video__volume {
+  display: flex;
+  align-items: center;
+  margin-left: 38px;
+}
+@media screen and (max-width: 768px) {
+  .video__volume {
+    display: none;
+  }
+}
+.video__volume-control {
+  width: 12px;
+  height: 16px;
+}
+.video .muted svg {
+  fill-opacity: 0.3;
+}
+.video svg {
+  max-width: 100%;
+  max-height: 100%;
+  fill: white;
+}
+
+.work__title {
+  margin-top: 58px;
+}

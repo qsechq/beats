@@ -1,0 +1,31 @@
+.interective__avatar{
+  width: 4.625rem;
+  height: 4.625rem;
+  border:5px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  &:hover{
+    background: #E01F3D;
+    transition: 1s;
+  }
+
+  &--active{
+    border-color: #E01F3D;
+  }
+}
+
+.interective__avatar-link{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+}
+
+.interective__avatar-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
