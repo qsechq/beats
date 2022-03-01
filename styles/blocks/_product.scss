@@ -1,0 +1,102 @@
+.product__desc-img{
+  height: 5.6875rem;
+  width: 5.6875rem;
+  background: #9A9A9A;
+  position: relative;
+  margin-bottom: 1.5625rem;
+  border-radius: 4px;
+} 
+
+.product__pic{
+  padding-top: 2.6875rem;
+}
+
+.product__img{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.product__list{
+  display: flex;
+}
+
+.product__photo{
+  height: 28.25rem;
+  width: 66.6rem;
+  margin-right: 3.75rem;
+}
+
+.product__desc-title{
+  font-family: Play;
+  text-transform:uppercase ;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.product__desc-text{
+  font-family: Play;
+  color:#666666;
+  margin-bottom: 2.9375rem;
+  padding-right: 16%;
+}
+
+.product__desc-benefits{
+  display: flex;
+  margin-bottom: 3.125rem;
+  font-family: Play;
+}
+
+.product__benefits-info{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5.625rem;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.product__info-subtitle{
+  color: #666;
+}
+
+.product__info-text{
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.product__desc-pay{
+  display: flex;
+  align-items: stretch;
+}
+
+.product__pay{
+  font-family: Play;
+  font-size: 2.25rem;
+  margin-right: 0.9375rem;
+}
+
+.product__desc-menu{
+ display: none;
+}
+
+.product__desc-img:hover .product__desc-menu{
+  display: block;
+    height: 18.375rem;
+    width: 17.0625rem;
+    margin-left: 5.6875rem;
+    background: #d5d5d5;
+    
+    backdrop-filter: blur(40px);
+    padding: 1.75rem 1.562rem 2.125rem 2.25rem;
+    border-radius: 4px;
+}
+
+.products{
+  .bx-wrapper{
+    background: transparent;
+    border:0;
+    box-shadow:none;
+  }
+}

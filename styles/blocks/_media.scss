@@ -1,0 +1,222 @@
+@media  (max-width:768px){
+  html{font-size: 14px}
+  
+  .hero{background: url("../images/img/headset.png") top 32% center no-repeat;background-size: 23.071rem 23.071rem;background-color: #F5F5F5;}
+  .nav{display: none;}
+  .phone{
+    &__contact{
+       &:before{
+        display: none;
+      }
+      }
+    display: none;
+    &--footer{
+      display: flex;
+    }
+  }
+  .hero__icons-section{display: none;}
+  .fixed__menu{
+    display: none;
+  }
+  .phone__icon{display: block;fill: #E01F3D;}
+  .hamburger{display: inline-flex;}
+  .hero__title-section{width:100%; text-align: center;}
+  .hero__title-desc {padding: 0 22%; font-family: Play;}
+  .hero__main-title{padding: 0 4%;}
+  .hero__container{padding: 1.625rem 0 7.375rem 0;}
+  .benefits__item{
+    flex:1;
+    padding: 0 4%;
+    position: relative;
+  
+    &:before{
+      content: url(../images/icons/tochki.svg); display: none;}
+    }
+    .reviews__display-inner{ display: flex;flex-direction: column;align-items: center;}
+    .reviews__content{text-align: center; margin-left: 0;}
+    .reviews__text{padding: 0 0;}
+    .reviews__avatar{
+      height:9.285rem;width:9.285rem;
+      margin-bottom: 2.285rem;
+    }
+    .form{
+      flex-direction: column;
+      &__col{margin-right: 0;}
+    }
+
+    .phone__contact--footer{
+      color: #E01F3D;
+    }
+    .social__link{height: 2.142rem;width: 2.142rem;}
+    .product__desc-img{ display: none;}
+    .product__list{flex-direction: column;align-items: center;}
+    .product__pic{padding-top: 0;}
+    .product__photo{
+      height: 302px;
+      width: 302px;
+      margin-right: 0;
+    }
+    .product__desc-title{ text-align: center;}
+    .product__desc-text{text-align: center;padding: 0px 14%;}
+    .product__desc-benefits{justify-content: center;}
+    .product__desc-pay{justify-content: center;}
+    .slider__arrows{width: 77%;bottom: 31.125rem;}
+    .slider__link--back{left: 29%;}
+    .product__desc{margin-top: 1.571rem;}
+    .team__list--mobile{
+      display: block;
+    }
+
+    .team__list--dekstop{
+      display: none;
+    }
+
+    .team__link{
+     
+      &:after{
+        content:"";
+        
+        border-top: 4px solid #365A49;
+      }
+    }
+    .team__list--mobile{flex-direction: column;}
+    .team__item{margin-right: 0;margin-bottom: 0.375rem;}
+    .team__content-info{
+      max-width: 100%;
+    }
+
+    .team__img{width: 222px;margin: 0 auto;margin-bottom: 1.25rem;}
+    .team__content-info{padding: 0 33%;}
+
+    .title__accerdon{width: 0;}
+
+    .team__content{position: relative;}
+    .accerdon__text p{
+      
+      
+      width: 100%;
+      
+    }
+
+
+}
+
+
+@media (max-width:480px){
+  html{font-size: 13px}
+  .hero__main-title{padding: 0;}
+  
+  .hero__title-section{
+    &:after{background: url("../images/img/headset.png") no-repeat;}
+  }
+  .hero__title-desc {padding: 0 11%; font-family: Play;}
+  
+  .benefits__item{
+    flex:1;
+    padding: 0 4%;
+    position: relative;
+  
+    &:before{
+      content: url(../images/img/tochki.svg); display: none;}
+    }
+    .interective__avatar{
+      width: 4.923rem;
+      height: 4.923rem;}
+      .benefits{flex-direction: column;
+        &__item{
+          display: flex;
+        }
+      }
+      .headline__subtitle{padding: 0px 11%;}
+      .benefit__text{    display: flex;
+        flex-direction: column;
+        align-items: flex-start;}
+        .benefit__desc{text-align: left;}
+
+        .benefits__item{padding-left:  6%;&:last-child{padding-right:6%;}&:first-child{padding-left: 6%;}}
+        .benefit__img{ margin-right: 0.923rem;}
+        .reviews__text{margin-bottom: 0.75rem;}
+        .form__controls{justify-content: center;}
+        .form__btns{text-align: center;}
+       
+
+        
+        .container--map{flex-direction: column; justify-content: normal;}
+        .footer{
+          flex-direction: column;padding-bottom: 8.615rem;}
+        .address{margin-bottom: 0.923rem;}
+        .phone__icon{display: none;}
+        .phone--footer{
+          align-items: center;
+        }
+        .phone__contact--footer{
+          color: #292929;
+          
+        }
+        .social__list{justify-content: center;}
+        .social__item{height: 1.846rem;width: 1.846rem; }
+        .social__link{height: 1.846rem;width: 1.846rem;}
+        .phone{
+         
+          &__contact{
+         
+           &:before{
+           display: block;
+          }
+          }
+}
+.contacts{flex-direction: column;}
+.social__icon{
+  width: 24px;
+  height: 24px;
+}
+.slider__arrows{width: 99%;bottom: 30.125rem;}
+.slider__link--back{left: 1%;}
+
+
+
+.map{
+  margin: 0;
+}
+
+.contacts{padding: 0;}
+
+.radio--check{
+  margin: 0;
+}
+.section__title{
+  margin: 1.0625rem;
+}
+.hero__container {
+  padding: 1.625rem 0 2.375rem 0;
+}
+
+
+.hero {
+  background: url(../images/img/headset.png) top 20% center no-repeat;
+  background-size: 23.071rem 23.071rem;
+  background-color: #F5F5F5;
+}
+
+.bx-wrapper {
+  
+  margin-bottom: 1.615rem;
+}
+
+.product__photo {
+  
+  margin-top: 23px;
+}
+
+.product__desc-benefits {
+  
+  margin-bottom: 1.125rem;
+  
+}
+
+.accerdon__title {
+  min-width: 5rem;
+}
+
+}
+
